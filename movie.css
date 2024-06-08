@@ -1,0 +1,68 @@
+/* Movie container */
+.movie {
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    padding: 20px;
+  }
+  
+  /* Movie image */
+  .movie img {
+    width: 300px;
+    height: auto;
+    margin-bottom: 10px;
+  }
+  
+  /* Movie title */
+  .movie h2 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+  }
+  
+  /* Movie synopsis */
+  .movie p {
+    margin-bottom: 10px;
+  }
+  
+  /* Rating container */
+  .movie .rating {
+    margin-bottom: 10px;
+  }
+  
+  /* Star rating */
+  .movie .star {
+    cursor: pointer;
+    font-size: 1.5em;
+    color: #ffc107;
+  }
+  
+  /* Filled star */
+  .movie .star.filled {
+    color: #ff9800;
+  }
+  
+  /* Review list */
+  .movie .review-list {
+    margin-bottom: 10px;
+  }
+  
+  /* Review form */
+  .movie form textarea {
+    width: 100%;
+    height: 100px;
+    margin-bottom: 10px;
+  }
+  
+  /* Submit button */
+  .movie form button {
+    background-color: #4caf50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  /* Submit button hover effect */
+  .movie form button:hover {
+    background-color: #45a049;
+  }
+  
